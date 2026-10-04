@@ -1,7 +1,8 @@
 # Surveillance
 
-Vérifie toutes les 15 minutes que https://tracker.exploit-it.com répond. Si le site ne répond pas trois fois de suite
-(environ 2 minutes), le run échoue et GitHub envoie un mail au propriétaire du dépôt.
+**Désactivé le 04/10/2026.** Sur un compte GitHub gratuit, les passages planifiés sautent la plupart du temps
+(aucun passage en 5 heures pour celui-ci), donc ce n'est pas une alerte fiable.
 
-Dépôt public exprès : les minutes GitHub Actions y sont gratuites et ne touchent pas au quota des dépôts privés.
-Essai à la main : onglet Actions, « Surveillance du site », Run workflow (une adresse fausse permet de tester l'alerte).
+La surveillance de https://tracker.exploit-it.com tourne désormais dans un script Google (toutes les 5 minutes, mail
+quand le site ne répond plus deux fois de suite, puis quand il revient). Le workflow reste ici, désactivé, pour un
+essai à la main si besoin.
