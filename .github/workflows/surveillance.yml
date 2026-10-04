@@ -1,5 +1,5 @@
 name: Surveillance du site
-# Toutes les 15 minutes (GitHub peut décaler de quelques minutes). Un run en échec = mail de GitHub au propriétaire.
+# Toutes les 15 minutes (GitHub peut décaler de quelques minutes, voire sauter un passage aux heures chargées). Un run en échec = mail de GitHub au propriétaire.
 on:
   schedule:
     - cron: "7,22,37,52 * * * *"
